@@ -1,0 +1,90 @@
+.o1
+{
+    height: 80dvh;
+    max-height: 80dvh;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.k1
+{
+    width: 100%;
+    max-width: 1024px;
+    height: 50%;
+   border: 1px solid black;
+    display: flex;
+   justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  
+}
+h1 {
+    font-size: 105px;
+    color: transparent;
+    background: linear-gradient(0deg, #11181c 20%, rgba(17, 24, 28, 0) 45%), 
+                linear-gradient(90deg, #0f3058 0%, #006adc 33.333%, #11181c 50%, #11181c 100%);
+    background-size: 300% 100%;
+line-height: 1;
+letter-spacing: -8px;
+    background-clip: text;
+    text-align: center;
+}
+.small-txt1
+{
+    font-size: 19px;
+    line-height: 1.2;
+    text-align: center;
+}
+.btn1
+{
+    color: #006adc;
+font-size: 19px;
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+letter-spacing: -0.5px;
+background-color: transparent;
+border: none;
+}
+@media (min-height:400px) and (max-height: 800px) {
+h1
+{
+    font-size: 95px;
+}
+.k1
+{
+    height: 50%;
+}
+}
+@media only screen and (max-width: 1024px) {
+h1
+{
+    font-size: 90px;
+
+}
+.k1
+{
+    width: 95%;
+    height: 60%;
+}
+}
+@media only screen and (max-width: 600px) {
+h1
+{
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+.small-txt1
+{
+    font-size: 17px;
+}
+.k1
+{
+height: 65%;
+}
+
+}
