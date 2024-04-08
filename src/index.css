@@ -14,7 +14,7 @@ body
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  overflow-y: visible;
+  overflow-y:initial;
 height: 100vh;
 max-height: 100vh;
 color: #687786;
