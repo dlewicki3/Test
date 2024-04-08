@@ -8,23 +8,3 @@
     align-items: center;
   flex-direction: column;
 }
-.k3
-{
-height: 250dvh;
-width: 100%;
-max-width: 1200px;
-display: flex;
-justify-content: center;
-padding-top: 500px;
-}
-
-.anime
-{
-width: 200px;
-height: 60px;
-position: sticky;
-top: 400px;
-font-size: 60px;
-color: white;
-font-weight: 600;
-}
