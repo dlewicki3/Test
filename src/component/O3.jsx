@@ -15,11 +15,11 @@ const O3 = () => {
       y: 0, // Przywrócenie pozycji pojawionego elementu
       scrollTrigger: {
         trigger: ".k3",
-        duration: 20, // Zwiększenie czasu trwania animacji
-        start: "400px top", // Animacja rozpocznie się, gdy górna krawędź .k3 będzie w centrum widoku
-        end: "bottom center", // Animacja zakończy się, gdy dolna krawędź .k3 będzie w centrum widoku
+        duration: 2, // Zwiększenie czasu trwania animacji
+        start: "200px top", // Animacja rozpocznie się, gdy górna krawędź .k3 będzie w centrum widoku
+        end: "60%", // Animacja zakończy się, gdy dolna krawędź .k3 będzie w centrum widoku
         scrub: true,
-        // markers: true,
+        markers: true,
       }
     });
   }, []);
@@ -29,7 +29,7 @@ const O3 = () => {
       <div className="k3">
         <div className="anime">SORA</div>
       </div>
-      <div className="k33"></div>
+
     </div>
   );
 }
