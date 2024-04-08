@@ -1,0 +1,43 @@
+.o3
+{
+    width: 100%;
+ max-height: 500dvh;
+ height: 300dvh;
+    background-color:#000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+}
+.k3
+{
+    height:250dvh;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+padding-top: 400px;
+}
+.k33
+{
+    height: 250dvh;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.anime
+{
+width: 200px;
+height: 70px;
+position: sticky;
+top: 400px;
+font-size: 60px;
+color: white;
+font-weight: 600;
+display: flex;
+justify-content: center;
+}
