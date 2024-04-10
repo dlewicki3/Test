@@ -3,23 +3,32 @@
 .o3
 {
     width: 100%;
- max-height: 130dvh;
- height: 130dvh;
+ max-height: 150dvh;
+ height: 150dvh;
     background-color:#000000;
     display: flex;
     align-items: center;
   flex-direction: column;
   position: relative;
-  overflow-y: auto;
+  padding-top: 100px;
 }
 .anime
 {
-    background-color: red;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 600;
     color: white;
     height: 60px;
+    max-width: 200px;
     width: 200px;
     position: sticky;
     top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 1200px) {
+
+
+
+
 }
