@@ -3,13 +3,14 @@
 .o3
 {
     width: 100%;
- max-height: 200dvh;
- height: 200dvh;
+ max-height: 130dvh;
+ height: 130dvh;
     background-color:#000000;
     display: flex;
     align-items: center;
   flex-direction: column;
   position: relative;
+  overflow-y: auto;
 }
 .anime
 {
