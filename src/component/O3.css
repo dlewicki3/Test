@@ -3,8 +3,8 @@
 .o3
 {
     width: 100%;
- max-height: 150dvh;
- height: 150dvh;
+ max-height: 350dvh;
+ height: 350dvh;
     background-color:#000000;
     display: flex;
     align-items: center;
@@ -12,10 +12,45 @@
   position: relative;
   padding-top: 100px;
 }
+.k3
+{
+  height: 180dvh;
+  max-height: 180dvh;
+  width: 200px;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+flex-direction: column;
+padding-top: 100px;
+}
+.k33
+{
+height: 180dvh;
+max-height: 180dvh;
+width: 100%;
+display: flex;
+justify-content: center;
+padding-top: 100px;
+}
+.pinned
+{
+  height: 100px;
+  position: sticky;
+  top:350px;
+  opacity: 1;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  width: 90%;
+  max-width: 90%;
+  text-align: center;
+
+
+}
 .anime
 {
-    font-size: 80px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: 500;
     color: white;
     height: 60px;
     max-width: 200px;
@@ -26,8 +61,11 @@
     justify-content: center;
     align-items: center;
 }
-@media only screen and (max-width: 1200px) {
-
+@media only screen and (max-width: 400px) {
+.k33
+{
+  width: 95%;
+}
 
 
 
