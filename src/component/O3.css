@@ -3,19 +3,20 @@
 .o3
 {
     width: 100%;
- max-height: 350dvh;
- height: 350dvh;
+ max-height: 320dvh;
+ height: 320dvh;
     background-color:#000000;
     display: flex;
     align-items: center;
   flex-direction: column;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 300px;
 }
 .k3
 {
-  height: 180dvh;
-  max-height: 180dvh;
+  height: 160dvh;
+  max-height: 160dvh;
   width: 200px;
   max-width: 200px;
   display: flex;
@@ -25,8 +26,8 @@ padding-top: 100px;
 }
 .k33
 {
-height: 180dvh;
-max-height: 180dvh;
+height: 160dvh;
+max-height: 160dvh;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -36,7 +37,7 @@ padding-top: 100px;
 {
   height: 100px;
   position: sticky;
-  top:350px;
+  top:300px;
   opacity: 1;
   font-size: 18px;
   color: white;
@@ -56,7 +57,7 @@ padding-top: 100px;
     max-width: 200px;
     width: 200px;
     position: sticky;
-    top: 400px;
+    top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +67,4 @@ padding-top: 100px;
 {
   width: 95%;
 }
-
-
-
 }
