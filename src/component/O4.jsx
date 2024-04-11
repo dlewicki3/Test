@@ -109,6 +109,7 @@ Thomas Degry
 <br></br>
 <br></br>
 <span className='span-edit1'>External Engagement</span>
+<br></br>
 <span className='span-edit2'>Alex Baker-Whitcomb, Allie Teague, Anna Makanju, Anna McKean, Becky Waite, Brittany Smith, Chan Park, Chris Lehane, David Duxin, David Robinson, James Hairston, Jonathan Lachman, Justin Oswald, Krithika Muthukumar, Lane Dilg, Leher Pathak, Olga Nowicka, Ryan Biddy, Sandro Gianella, Stephen Petersilge, Tom Rubin & Varun Shetty</span>
 <br></br>
 <br></br>
@@ -123,11 +124,8 @@ Thomas Degry
 <br></br>
 <br></br>
 <br></br>
-<br></br>
-<br></br>
 <span className='span-edit2'>Built by OpenAI in San Francisco, California<br></br>
 Published February 15, MMXXIV</span>
-
     </div>
 </div>
   )
