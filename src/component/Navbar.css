@@ -23,7 +23,7 @@
 .logo
 {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing:-1.5px;
 cursor: pointer;
     width:15%;
@@ -38,6 +38,7 @@ cursor: pointer;
 li
 {
 font-size: 14px;
+font-weight: 500;
 padding: 20px;
 list-style: none;
 cursor: pointer;
@@ -45,9 +46,8 @@ cursor: pointer;
 .nav-btn
 {
 width: 20%;
-color: #006adc;
 font-size: 15px;
-font-weight: 500;
+font-weight: 600;
 display: flex;
 align-items: center;
 justify-content: flex-end;

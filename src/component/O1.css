@@ -23,8 +23,8 @@
 h1 {
     font-size: 105px;
     color: transparent;
-    background: linear-gradient(0deg, #11181c 20%, rgba(17, 24, 28, 0) 45%), 
-                linear-gradient(90deg, #0f3058 0%, #006adc 33.333%, #11181c 50%, #11181c 100%);
+    background: linear-gradient(0deg, #727272 20%, rgba(17, 24, 28, 0) 45%), 
+                linear-gradient(90deg, #000000 0%, #000000 33.333%, #11181c 50%, #11181c 100%);
     background-size: 300% 100%;
 line-height: 1;
 letter-spacing: -8px;
@@ -39,7 +39,6 @@ letter-spacing: -8px;
 }
 .btn1
 {
-    color: #006adc;
 font-size: 19px;
 font-weight: 600;
 display: flex;

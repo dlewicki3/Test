@@ -6,7 +6,7 @@ const O2 = () => {
     <div className="o2">
       <div className="modal-bg">
         <div className="pin">
-          <div className="kwa" style={{ color: "black", fontWeight: "600" }}>Capabilities</div>
+          <div className="kwa" style={{ color: "black", fontWeight: "700" }}>Capabilities</div>
           <div className="kwa">Safety</div>
           <div className="kwa">Research</div>
         </div>
